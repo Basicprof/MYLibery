@@ -1,0 +1,11 @@
+List	    ArrayList	 Список
+            LinkedList	 Список
+             Vector	 Вектор
+             Stack	 Стек
+ Set  	 HashSet	 Множество
+           TreeSet	 Множество
+           SortedSet	 Отсортированное множество
+Map	 HashMap	Карта/Словарь
+      TreeMap	 Карта/Словарь
+      SortedMap	 Отсортированный слова
+      Hashtable	 Хеш-таблица
