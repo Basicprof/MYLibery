@@ -26,4 +26,3 @@ public class СоотвСШаблоном {  private static final String REGEX =
             System.out.println("matches(): " + matcher.matches());
         }
     }
-}

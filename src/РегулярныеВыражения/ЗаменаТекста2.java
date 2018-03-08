@@ -28,4 +28,4 @@ public class ЗаменаТекста2 {
             System.out.println(sb.toString());
         }
     }
-}
+

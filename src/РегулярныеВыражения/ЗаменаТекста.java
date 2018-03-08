@@ -24,4 +24,4 @@ public class ЗаменаТекста {
             System.out.println(INPUT);
         }
     }
-}
+
