@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 //        ввода встречается слово "кот".
 public class КолРазВСтроке {
 
-    private static final String REGEX = "\\bкот\\b";
+    private static final String REGEX = "\bкот\b";
     private static final String INPUT = "кот кот кот котёл кот";
 
     public static void main( String args[] ) {
@@ -16,10 +16,10 @@ public class КолРазВСтроке {
         int count = 0;
 
         while(m.find()) {
-            count++;
-            System.out.println("Номер вхождения: "+count);
-            System.out.println("Начальная позиция вхождения: "+m.start());
-            System.out.println("Конечная позиция вхождения: "+m.end());
+                count++;
+                System.out.println("Номер вхождения: "+count);
+                System.out.println("Начальная позиция вхождения: "+m.start());
+                System.out.println("Конечная позиция вхождения: "+m.end());
         }
     }
 }

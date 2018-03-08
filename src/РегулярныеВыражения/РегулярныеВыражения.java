@@ -38,27 +38,7 @@ public class РегулярныеВыражения {
 
             return true;
         }
-public class регвыр{
-    // Строка для сканирования, чтобы найти шаблон
-    String str = "Крещение Руси произошло в 988 году! Не так ли?";
-    String pattern = "(.*)(\\d+)(.*)";
 
-    // Создание Pattern объекта
-    Pattern r = Pattern.compile(pattern);
-
-    // Создание matcher объекта
-    Matcher m = r.matcher(str);
-    //количество гркупп в регулярном выражении.
-
-       //System.out.println("Колличество групп в рег. выражении = " +  m.());
-//        if (m.find( )) {
-//        System.out.println("Найдено значение: " + m.group(0));
-//        System.out.println("Найдено значение: " + m.group(1));
-//        System.out.println("Найдено значение: " + m.group(2));
-//    }else {
-//        System.out.println("НЕ СОВПАДАЕТ");
-//    }
-}
 public class регвыр3{
       //  System.out.println("args adf !@ 12312312= ".matches("//b") );
         // проверяем на вхождение в строчку таких то символов
