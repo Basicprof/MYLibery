@@ -11,8 +11,6 @@ public class ЧтениеИзФайла {
         //===========================
         File f = new File("text.txt");
     BufferedReader fin = new BufferedReader(new FileReader("text.txt"));
-
-
     String name;
     String line;
         System.out.println("Print File "+f.getName()+"? y/n");
@@ -20,5 +18,6 @@ public class ЧтениеИзФайла {
                      System.out.println(line);
                  // Чтение строки из файла.
 
-       }}
+       }
+}
 

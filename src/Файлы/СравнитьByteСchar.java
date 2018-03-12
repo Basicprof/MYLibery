@@ -6,8 +6,8 @@ public class СравнитьByteСchar {
     public static void main(String[] args) throws IOException {
 
 
-        BufferedReader bufferedReader = new BufferedReader(
-                new InputStreamReader(System.in));
+       //                                                  /   Читаем символы   / Чтение Байт
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         InputStream inputStream = new FileInputStream(bufferedReader.readLine());
 
         int kol = 0;
