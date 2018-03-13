@@ -1,10 +1,11 @@
 package ПарсингJCOUP;
 
+
 public class ПарсингHTML {
     public static void main(String[] args) {
     List<Article> articleList = new ArrayList<>();
-    Document document =Jsoup.connect("http://4pda.ru"),get();
-    Elements elements = doc.getEleme
+    Document document = Jsoup.connect("http://4pda.ru").get();
+    Elements elements = doc.getElemet
     }
    class Article {
         private String url;
