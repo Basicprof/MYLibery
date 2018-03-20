@@ -59,4 +59,4 @@ public class СерСИНГЛТОН  implements Serializable {
                 // десерилизованный объхект синглтона остается есдинственным
                 return ourInstance;
             }
-        }
+        }}
