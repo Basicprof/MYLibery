@@ -18,6 +18,7 @@ public class Graph {
                 matrix[i][j] = 0;
         vertexCount = 0;
         vertexList = new Vertex[VERTEX_MAX];
+
     }
 
 
@@ -33,4 +34,5 @@ public class Graph {
         matrix[begin][end] = 1;
         matrix[end][begin] = 0;
     }
+
 }
