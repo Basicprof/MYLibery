@@ -1,4 +1,4 @@
-package Pobitovuy;
+package Побитовые.Pobitovuy;
 
 public class PobitovApersc {
     public static void dicplay(int value){
