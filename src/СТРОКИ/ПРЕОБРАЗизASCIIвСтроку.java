@@ -3,4 +3,5 @@ public class ПРЕОБРАЗизASCIIвСтроку {
         int i = 64;
 
         String aChar = new Character((char)i).toString();
+        Character dd = (char)i;
     }}
