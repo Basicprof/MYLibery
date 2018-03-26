@@ -17,8 +17,14 @@ public class Stroki {
         System.out.println("equalsIgnoreCase = " + s.equalsIgnoreCase(s2));
 
  System.out.println("hashCode = " + s.hashCode()); // Получаем хеш код
- System.out.println("indexOf = " + s.indexOf(65));
- // Возвращает индекс данного символа если есть в строке в КОДИРОВКе Юникод
+        // Возвращает индекс данного символа если есть в строке в КОДИРОВКе Юникод
+        System.out.println("indexOf = " + s.indexOf(65));
+  //Статические методы самого класса
+        // Преобразуем число чар будеон все в строку в строку
+        String  str3 = String.valueOf(65);
+        System.out.println("String.valueOf = " + String.valueOf(65));
+        System.out.println("String.copyValueOf = " + String.copyValueOf(arr));
+        // String.copyValueOf  Принимает массив чаров и преобразует их в строку.
  System.out.println("isEmpty = " + s.isEmpty()); // Возвращает  пустая ли строка
  System.out.println("length = " + s.length()); // Возвращает  длинну строки
   System.out.println("substring = " + s.substring(2,12));// Извлекает строку оторая начинается с 2 индекса и заканчивается 6
@@ -37,12 +43,7 @@ public class Stroki {
    System.out.println("split = " + k); //  и возвращает массив стрингов
     }
 
-    //Статические методы самого класса
-        System.out.println("String.valueOf = " + String.valueOf(65));
-        String  str3 = String.valueOf(65);
-        // Преобразуем число чар будеон все в строку в строку
-        System.out.println("String.copyValueOf = " + String.copyValueOf(arr));
-        // String.copyValueOf  Принимает массив чаров и преобразует их в строку.
+
 
 
         String str1 = "Добро пожаловать на ProgLang.su";
