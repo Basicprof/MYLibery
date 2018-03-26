@@ -6,10 +6,13 @@ public class Stroki {
         String s2 =  "Эта строка";
  System.out.println("charAt = " + s.charAt(1));// возвращает символ по индексу 1
  System.out.println("codePointAt = " + s.codePointAt(1));// возвращает символ в кодировке Юникод
- System.out.println("compareTo = " + s.compareTo(s2)); // Сравнивает строки лексически
- System.out.println("compareToIgnoreCase = " + s.compareToIgnoreCase(s2)); //сравнивает без учета регистра символов
+ System.out.println("compareTo = " + s.compareTo(s2)); //
+        // Сравнивает строки лексически
+ System.out.println("compareToIgnoreCase = " + s.compareToIgnoreCase(s2));
+ //сравнивает без учета регистра символов
  System.out.println("concat = " + s.concat(s2)); //Сложение строк
- System.out.println("equals = " + s.equals(s2)); //Сравнение строк на равенство содержимого
+ System.out.println("equals = " + s.equals(s2)); //Сравнение строк
+        // на равенство содержимого
         // Сравнивает строки возвращает boolean
         System.out.println("equalsIgnoreCase = " + s.equalsIgnoreCase(s2));
 
@@ -47,11 +50,13 @@ public class Stroki {
         StringBuffer str5 = new StringBuffer("Добро пожаловать на ProgLang.su");
         StringBuffer str4 = new StringBuffer("Добро пожаловать");
 
-        boolean  result = str1.contentEquals(str3);
+        boolean  result = str1.contentEquals(str5);
         System.out.println("Строка \"Добро пожаловать на ProgLang.su\" равна строке буфера \"Добро пожаловать на ProgLang.su\"? \n" + result);
 
-        result = str2.contentEquals(str3);
-        System.out.println("Строка \"Сайт для изучения программирования\" равна строке буфера \"Добро пожаловать на ProgLang.su\"? \n" + result);
+        result = str2.contentEquals(str5);
+        System.out.println("Строка \"Сайт для изучения программирования" +
+                "\" равна строке буфера \"Добро пожаловать на ProgLang.su\"?" +
+                " \n" + result);
 
         result = str1.contentEquals(str4);
         System.out.println("Строка \"Добро пожаловать на ProgLang.su\" равна строке буфера \"Добро пожаловать\"? \n" + result);
