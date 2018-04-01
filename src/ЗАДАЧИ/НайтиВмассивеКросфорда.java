@@ -44,9 +44,7 @@ public class НайтиВмассивеКросфорда {
 home - (5, 3) - (2, 0)
 same - (1, 1) - (4, 1)
          */
-            System.out.println(words.size()+" "+words.toString());;
-
-        }
+            System.out.println(words.size()+" "+words.toString());  }
 
         public static List<Word> detectAllWords(int[][] crossword, String... words) {
 
@@ -70,14 +68,8 @@ same - (1, 1) - (4, 1)
                             w.setEndPoint(res[1], res[0]);
                             words1.add(w);
 
-                        }    }
-                }
-
-            }
-
-
-
-            return words1;
+                        }    }  }   }
+  return words1;
         }
 
 
