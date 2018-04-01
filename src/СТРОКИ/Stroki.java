@@ -6,7 +6,7 @@ public class Stroki {
         String s2 =  "Эта строка";
  System.out.println("charAt = " + s.charAt(1));// возвращает символ по индексу 1
  System.out.println("codePointAt = " + s.codePointAt(1));// возвращает символ в кодировке Юникод
- System.out.println("compareTo = " + s.compareTo(s2)); //
+ System.out.println("compareTo  = " + s.compareTo(s2)); //
         // Сравнивает строки лексически
  System.out.println("compareToIgnoreCase = " + s.compareToIgnoreCase(s2));
  //сравнивает без учета регистра символов

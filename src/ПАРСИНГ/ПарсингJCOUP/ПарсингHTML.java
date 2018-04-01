@@ -1,6 +1,11 @@
 package ПАРСИНГ.ПарсингJCOUP;
 
 
+import javax.lang.model.util.Elements;
+import javax.swing.text.Document;
+import java.util.ArrayList;
+import java.util.List;
+
 public class ПарсингHTML {
     public static void main(String[] args) {
     List<Article> articleList = new ArrayList<>();
