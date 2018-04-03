@@ -61,5 +61,8 @@ public class Stroki {
 
         result = str1.contentEquals(str4);
         System.out.println("Строка \"Добро пожаловать на ProgLang.su\" равна строке буфера \"Добро пожаловать\"? \n" + result);
-    } }
+        //Удалить часть строки
+        String s = "Bender";
+        StringBuilder s2 = new StringBuilder(s);
+        s2.deleteCharAt(2); //останется "Beder"  } }
 
