@@ -109,7 +109,7 @@ public class изСтрокиДата {
             }
         }
 
-  public class User {
+  public static class User {
         private String firstName;
         private String lastName;
         private Date birthDate;

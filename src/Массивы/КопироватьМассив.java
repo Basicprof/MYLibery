@@ -39,4 +39,4 @@ public class КопироватьМассив {
 
         System.out.println("\n\na " + (a == e ? "=" : "!") + "= e");
         System.out.print("a " + (a.equals(e) ? "" : "NOT ") + "equals e");
-    }
+    }}

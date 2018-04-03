@@ -23,6 +23,10 @@ public class Stroki {
         // Преобразуем число чар будеон все в строку в строку
         String  str3 = String.valueOf(65);
         System.out.println("String.valueOf = " + String.valueOf(65));
+        char [] arr = s.toCharArray();
+        for (char kk:arr) {
+            System.out.println("toCharArray = " + kk);// возвращает массив символов
+        }
         System.out.println("String.copyValueOf = " + String.copyValueOf(arr));
         // String.copyValueOf  Принимает массив чаров и преобразует их в строку.
  System.out.println("isEmpty = " + s.isEmpty()); // Возвращает  пустая ли строка
@@ -34,10 +38,7 @@ public class Stroki {
   //   конвертирует СИМВОЛЫ в большие
   System.out.println("trim = " + s.trim());//   Обрезает все ПРОБЕЛЫ в начале и в конце строки
 
-             char [] arr = s.toCharArray();
-        for (char kk:arr) {
-            System.out.println("toCharArray = " + kk);// возвращает массив символов
-        }
+
  String [] string = s.split(" ");//Принемает строку разделитель (например пробел)
   for (String k:string){
    System.out.println("split = " + k); //  и возвращает массив стрингов
