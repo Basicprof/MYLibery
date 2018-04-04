@@ -1,3 +1,5 @@
+package Объекты.СРАВНЕНИЕОБЪЕКТА;
+
 public class HashCodeEquals {
     public static void main(String[] args) {
     }

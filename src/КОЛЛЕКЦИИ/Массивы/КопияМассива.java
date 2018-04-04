@@ -1,4 +1,4 @@
-
+package Массивы;
 
 import java.util.Arrays;
 
