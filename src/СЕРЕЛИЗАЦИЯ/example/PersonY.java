@@ -42,10 +42,10 @@ public class PersonY implements Serializable
         spouse = value;
     }
 
-	private Object writeReplace() throws java.io.ObjectStreamException
-	{
-		return new PersonProxy(this);
-	}
+//	private Object writeReplace() throws java.io.ObjectStreamException
+//	{
+//		return new PersonProxy(this);
+//	}
 	@Override
     public String toString() {
         return "[Person: firstName = " + firstName + 

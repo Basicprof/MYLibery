@@ -13,9 +13,12 @@ public class РаботаСКлассами {
         System.out.println("");
         System.out.println("Constructor :");
     Class clss3 = Class.forName("com.video.lessons.SomeClass");
-    SomeClass someClass1 = (SomeClass)clss.newInstance();// Делаем новый класс рефлексией
-         Constructor    constructors= clss.getConstructor();  //Выводим все конструктор
-        Constructor[] constructorsD= clss.getDeclaredConstructors();//Выводим все конструктор
+    SomeClass someClass1 = (SomeClass)clss.newInstance();
+    // Делаем новый класс рефлексией
+         Constructor    constructors= clss.getConstructor();
+         //Выводим все конструктор
+        Constructor[] constructorsD= clss.getDeclaredConstructors();
+        //Выводим все конструктор
       //Constructor constructor = clss.getMethod();  //Выводим все методы
    for (Constructor constructor : constructorsD) {
        System.out.println(constructor.getName());
