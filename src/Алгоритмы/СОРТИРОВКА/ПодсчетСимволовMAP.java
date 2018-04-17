@@ -1,4 +1,4 @@
-package СОРТИРОВКА;
+package Алгоритмы.СОРТИРОВКА;
 
 import java.io.FileInputStream;
 import java.io.IOException;

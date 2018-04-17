@@ -1,4 +1,4 @@
-package СОРТИРОВКА;
+package Алгоритмы.СОРТИРОВКА;
 
 public class БинарныйПоиск {
   private void binarySearch (int key, int[]  array, int min, int max) {

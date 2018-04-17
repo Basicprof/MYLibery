@@ -1,7 +1,6 @@
-package СОРТИРОВКА;
+package Алгоритмы.СОРТИРОВКА;
 
 import java.util.*;
-import java.util.stream.Stream;
 
 
 public class СортMap {

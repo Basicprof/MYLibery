@@ -1,4 +1,4 @@
-package СОРТИРОВКА;
+package Алгоритмы.СОРТИРОВКА;
 
 public class Пузырьковая {
     public static void main(String[] args) {
