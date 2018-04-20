@@ -8,7 +8,7 @@ import java.util.*;
 
 public class СортировкаСравнение {
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         List<MessageFormat.Stock> stocks = getStocks();
         sort(stocks);
         Date actualDate = new Date();
@@ -109,7 +109,7 @@ public class СортировкаСравнение {
         GregorianCalendar calendar = new GregorianCalendar(year, month, day);
 
         return calendar.getTime();
-    }
+    }*/
 }
 
 
