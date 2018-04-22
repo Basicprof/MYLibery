@@ -1,4 +1,4 @@
-package Исключения.ОБРАБОТКАнЕОБРАБАТЫВАЕМЫХ;
+package ОБРАБОТКАнЕОБРАБАТЫВАЕМЫХ;
 import java.io.*;
 
 public class DumpTest {
