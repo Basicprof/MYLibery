@@ -1,4 +1,4 @@
-package ПОТОКИ;
+package СИНХРОНИЗАЦИЯ;
 
 public class Синхронизация {
     //Включив в программу EvenGenerator.java
