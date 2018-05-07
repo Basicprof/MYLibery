@@ -24,11 +24,12 @@ public class MapHashMap {
             System.out.println(key + ":" + value);
         }
         //Сокращенная запись
-        for (Map.Entry<String, String> pair : map.entrySet())
-        {
-            String key = pair.getKey();                      //ключ
-            String value = pair.getValue();                  //значение
-            System.out.println(key + ":" + value);
+            for (Map.Entry<String, String> pair : map.entrySet())
+            {
+                String key = pair.getKey();                      //ключ
+                String value = pair.getValue();                  //значение
+                System.out.println(key + ":" + value);
+
         }
     }
 }

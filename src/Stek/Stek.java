@@ -24,7 +24,7 @@ public class Stek {
         // StackTraceElement[], элементами которого являются стековые фрейы
         for (StackTraceElement element : stackTraceElements)
         {
-            System.out.println(element.getMethodName());
+            System.out.println(element.getClassName()+" : "+element.getClassName());
         }
     }
 }

@@ -1,4 +1,4 @@
-package Исключения.ОБРАБОТКАнЕОБРАБАТЫВАЕМЫХ;
+package ОБРАБОТКАнЕОБРАБАТЫВАЕМЫХ;
 import java.awt.*;
 import java.io.*;
 import javax.swing.*;
