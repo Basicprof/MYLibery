@@ -7,6 +7,7 @@ import java.lang.reflect.Parameter;
 public class РаботаСКлассами {
     public static void main(String[] args) throws ClassNotFoundException, IllegalAccessException, InstantiationException, NoSuchMethodException {
     SomeClass someClass = new SomeClass();
+
     Class clss  = someClass.getClass();
     Class clss2 = SomeClass.class;
         System.out.println(clss.getName());//Имя класса
