@@ -1,6 +1,7 @@
 package NIO;
 
 import java.io.IOException;
+import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
@@ -12,8 +13,8 @@ public class РаботасФайлом {
         return files;}
     public static List<String> readLines(String fileName) throws IOException {
 
-        List<String> files = Files.readAllLines(Paths.get(fileName));
-        // Копируем все Строки в Коллекцию
+        List<String> files = Files.readAllLines(Paths.get(fileName), Charset.defaultCharset());
+        // Копируем все Строки в Коллекцию применяя кодировку по умолянию Charset.defaultCharset()
         return files;
     }
 
