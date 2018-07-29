@@ -1,4 +1,4 @@
-package УмныйПоискФайлов;
+package NIO.ОбходДереваФайлов.УмныйПоискФайлов;
 
 import java.io.IOException;
 import java.nio.file.Files;

@@ -62,12 +62,16 @@ public class БольшиеЧисла {
         System.out.println("BigInteger.ZERO = " + BigInteger.ZERO);
 
         // Примеры арифметических операций с BigInteger
-        System.out.println("bi1+bi2 = " + (bi1.add(bi2))); // +
+        System.out.println("bi1+bi2 = " + (bi1.add(bi2)));
+        // +
         System.out.println("bi1 = " + bi1 + "   bi2 = " + bi2);
-        BigInteger bi8 = bi5.subtract(bi3); // -
+        BigInteger bi8 = bi5.subtract(bi3);
+        // -
         System.out.println("bi8 = " + bi8);
-        System.out.println("bi3*bi7 = " + (bi3.multiply(bi7))); // *
-        System.out.println("bi5/10 = " + (bi5.divide(BigInteger.TEN))); // /
+        System.out.println("bi3*bi7 = " + (bi3.multiply(bi7)));
+        // *
+        System.out.println("bi5/10 = " + (bi5.divide(BigInteger.TEN)));
+        // /
     }
 }
 
