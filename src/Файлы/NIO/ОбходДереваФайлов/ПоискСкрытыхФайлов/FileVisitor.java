@@ -9,7 +9,7 @@ import java.util.List;
 
     public class FileVisitor extends SimpleFileVisitor<Path> { //FileVisitor интерфейс
         public static void main(String[] args) throws IOException {
-            EnumSet<FileVisitOption> options = EnumSet.of(FileVisitOption.FOLLOW_LINKS);
+                       EnumSet<FileVisitOption> options = EnumSet.of(FileVisitOption.FOLLOW_LINKS);
             final FileVisitor fileVisitor = new FileVisitor();
             Files.walkFileTree(Paths.get("D:/"), options, 20, fileVisitor);
 

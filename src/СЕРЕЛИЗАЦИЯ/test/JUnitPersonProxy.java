@@ -1,5 +1,5 @@
 package test;
-import static org.junit.Assert.*;
+//import static org.junit.Assert.*;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -10,9 +10,9 @@ import java.io.ObjectOutputStream;
 
 //import example.PersonY;
 
-import org.junit.Test;
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
+//import org.junit.Test;
+//import org.junit.AfterClass;
+//import org.junit.BeforeClass;
 
 public class JUnitPersonProxy
 {
@@ -25,7 +25,7 @@ public class JUnitPersonProxy
 	//private  static         PersonY alex       = null      ;
 	//private  static         PersonY olga       = null      ;
 	
-	@BeforeClass
+	//@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 		try {
 //			alex = new PersonY(FNAME_Alex, LAST_NAME, AGE_Alex);
@@ -45,16 +45,16 @@ public class JUnitPersonProxy
 			oos.close();
 //			fail (proxy_alex.toString());
 		} catch (Exception e) {
-			fail("Exception thrown during test: " + e.toString());
+			///fail("Exception thrown during test: " + e.toString());
 		}
 	}
 
-	@AfterClass
+	//@AfterClass
 	public static void tearDownAfterClass() throws Exception {
     	// Удаление файла
 		new File(FILE_proxy).delete();
 	}
-	@Test
+	//@Test
 	public void testProxy()
 	{
         try {
@@ -73,7 +73,7 @@ public class JUnitPersonProxy
         	// Описание объекта
 //        	fail(alex.toString());
         } catch (Exception e) {
-        	fail("Exception thrown during test: " + e.toString());
+     //   	fail("Exception thrown during test: " + e.toString());
         }	
 	}
 }
